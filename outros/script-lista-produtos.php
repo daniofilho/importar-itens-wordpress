@@ -122,7 +122,7 @@ foreach ( $posts_array as $post ) : setup_postdata( $post ); ?>
 endforeach;
 wp_reset_postdata();
 
-//fwrite($fileProdutos, $txt);
+fwrite($fileProdutos, $txt);
 fclose($fileProdutos);
 ?>
 </table>
